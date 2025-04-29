@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "name": "login_page",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type" :"commonjs",
+  "devDependencies": {},
+  "scripts": {
+
+"start" : "nodemon index.js" },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

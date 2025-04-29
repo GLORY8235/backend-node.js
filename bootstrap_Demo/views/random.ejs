@@ -1,0 +1,19 @@
+<%- include('partials/head') %>
+    
+<%- include('partials/navbar')%>
+
+    <h1>your random number is: <%= Math.floor(Math.random() *10) + 1%></h1>
+    <h1>your random number is: <%= num %></h1>
+    <% if(num % 2 === 0) { %>
+        <h1>your number is even</h1>
+    <% } else { %>
+        <h1>your number is odd</h1>
+    <% } %>
+    
+    <h1>THAT NUMBER IS <%= num%2===0 ? 'EVEN' : 'ODD' %></h1>
+
+    <!-- <% if (num > 5) { %>
+        <h1>your number is greater than 5</h1>
+    <% } %> -->
+    
+    <%- include('partials/footer')%>
